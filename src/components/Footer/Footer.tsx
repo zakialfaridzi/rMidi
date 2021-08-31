@@ -6,7 +6,15 @@ export const Footer: FunctionComponent = () => {
 
   return (
     <footer className="footer">
-      made with 🤘 by<a href="github.com/zakialfaridzi">zalfaridzi</a>
+      made with 🤘 by{" "}
+      <a
+        href="https://www.github.com/zakialfaridzi"
+        target="_blank"
+        rel="noreferrer"
+      >
+        {" "}
+        zalfaridzi
+      </a>
       <br />
       {currentYear}
     </footer>
